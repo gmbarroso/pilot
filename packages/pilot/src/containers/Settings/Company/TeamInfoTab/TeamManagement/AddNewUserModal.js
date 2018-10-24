@@ -89,7 +89,7 @@ class AddNewUserModal extends React.Component {
     return (
       <Modal
         isOpen={isOpen}
-        onRequestClose={handleCloseModal}
+        // onRequestClose={handleCloseModal}
       >
         <Form
           data={this.state.currentData}
